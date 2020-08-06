@@ -1,0 +1,36 @@
+.carousel-item{
+    height: 400px;
+} 
+.carousel-item img{
+    height: 400px;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: cyan;
+    overflow: hidden;
+    min-height: 20vh;
+    color: black;
+}
+
+footer strong {
+    color: red;
+}
+
+.about{
+    border-right: 1px solid #333;
+}
+@media screen and (max-width:750px){
+    .about{
+        border-bottom: 1px solid #333;
+        margin-bottom: 2%;
+        border-right: none;
+    }
+}
