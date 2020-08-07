@@ -1,0 +1,83 @@
+/* dark-theme.css */
+
+body {
+  color: #eee;
+  background: #121212;
+}
+
+
+body {
+	color: black;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: #121212;
+}
+
+.Home {
+	width: 100%;
+	height: 100vh;
+	background: url("images/HomeD2.jpeg") center no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.headline {
+	color: #000;
+}
+
+.line {
+	background-color: #000;
+}
+
+.headline-description h5 {
+	color: #000;
+}
+
+.cta-btn {
+	background-color: #000;
+}
+
+.nav-link {
+	color: white;
+}
+
+.logo {
+	content:  url(images/logo1.png);
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.active::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		background-color: #fff;
+		left: 0;
+		bottom: -3px;
+	}
+
+.menu-toggle {
+	color: white;
+}
+
+.cards .card .face.face2 {
+	background: #121212;
+	transition: 0.5s;
+}
+
+.cards .card:hover {
+	box-shadow: 0 30px 50px rgba(100,100,100,.2)
+}
+
+.cards .card:hover .face.face2 {
+	border: 2px solid #121212;
+}
