@@ -14,16 +14,18 @@
 footer {
     margin-top: 50px;
     width: 100%;
-    background-color: cyan;
+    background-color: black;
     overflow: hidden;
     min-height: 20vh;
-    color: black;
+    color: white;
 }
 
 footer strong {
-    color: red;
+    color: orange;
 }
-
+footer a{
+    color:white;
+}
 .about{
     border-right: 1px solid #333;
 }
