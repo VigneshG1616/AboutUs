@@ -29,6 +29,30 @@ footer a{
 .about{
     border-right: 1px solid #333;
 }
+::-webkit-scrollbar{
+        width: 15px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: red;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: orange; 
+  }
+nav{
+    background-color: turquoise;
+}
+.navbar-brand :hover,
+.nav-link:hover {
+    color: #fff !important;
+}
+a{
+    font-family: sans-serif;
+}
 @media screen and (max-width:750px){
     .about{
         border-bottom: 1px solid #333;
