@@ -834,23 +834,4 @@ footer {
 	}
 }
 
-/* css for replaced contents by vignesh */
-
-.speciality{
-        margin-top: 25px;;
-        height: 650px;
-        width: 100%;
-      }
-    
-     .speciality img{
-        height:650px;
-        width: 100%;
-      }
-      #line_seperation{
-        background-color: 	rgba(0,0,0,0.3);
-        width: 50px;
-      }  
-      .clear{
-          clear:both;
-        }
 
