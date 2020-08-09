@@ -53,6 +53,28 @@ nav{
 a{
     font-family: sans-serif;
 }
+
+/* css for replaced contents by vignesh */
+
+.speciality{
+        margin-top: 25px;;
+        height: 650px;
+        width: 100%;
+      }
+    
+     .speciality img{
+        height:650px;
+        width: 100%;
+      }
+      #line_seperation{
+        background-color: 	rgba(0,0,0,0.3);
+        width: 50px;
+      }  
+      .clear{
+          clear:both;
+        }
+/* css for replaced contents by vignesh ENDS here */
+
 @media screen and (max-width:750px){
     .about{
         border-bottom: 1px solid #333;
