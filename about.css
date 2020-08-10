@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .carousel-item{
     height: 400px;
 } 
@@ -14,17 +17,20 @@
 footer {
     margin-top: 50px;
     width: 100%;
-    background-color: black;
+    background-color:rgb(155, 155, 228);
     overflow: hidden;
-    min-height: 20vh;
+   /* min-height: 20vh; */
     color: white;
 }
 
 footer strong {
-    color: orange;
+    color: #000000;
 }
 footer a{
     color:white;
+}
+footer a:hover{
+    color:#000;
 }
 .about{
     border-right: 1px solid #333;
@@ -44,7 +50,7 @@ footer a{
     background: orange; 
   }
 nav{
-    background-color: turquoise;
+    background-color: rgb(155, 155, 228);
 }
 .navbar-brand :hover,
 .nav-link:hover {
